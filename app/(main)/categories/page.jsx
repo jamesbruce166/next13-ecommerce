@@ -46,7 +46,6 @@ const Categories = () => {
 											className='aspect-square w-full rounded object-cover'
 											width={200}
 											height={200}
-											objectFit='contain'
 										/>
 
 										<div className='mt-2'>

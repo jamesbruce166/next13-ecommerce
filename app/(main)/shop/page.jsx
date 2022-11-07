@@ -21,7 +21,7 @@ const ProductsView = () => {
 									alt={product.imageAlt}
 									className='h-full w-full object-cover object-center group-hover:opacity-75'
 									fill={true}
-									objectFit='contain'
+									style={{ objectFit: 'contain' }}
 								/>
 							</div>
 							<h3 className='mt-4 text-sm text-gray-700'>
